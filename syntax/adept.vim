@@ -70,7 +70,7 @@ syntax match adeptNumber "\v<((0x[0-9A-Fa-f]+)|(([0-9]+(\.[0-9]+)?)(e-?[0-9]*)?)
 highlight link adeptNumber Number
 
 syntax region adeptString start=/\v"/ skip=/\v\\./ end=/\v"/
-syntax region adeptString start=/\v'/ skip=/\v\\./ end=/\v'/
+syntax region adeptString start=/\v'/ skip=/\v\\./ end=/\v'(ub)?/
 highlight link adeptString String
 
 syntax region adeptBlockComment start=/\V\/*/ end=/\V*\//
