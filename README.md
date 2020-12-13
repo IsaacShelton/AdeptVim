@@ -7,4 +7,5 @@ Vim Syntax Highlighting for Adept
 
 Run `install_for_vim.sh` which will copy the necessary files to `~/.vim/`
 
-![screenshot](https://raw.githubusercontent.com/IsaacShelton/AdeptVim/master/github/ss1.png)
+![screenshot1](https://raw.githubusercontent.com/IsaacShelton/AdeptVim/master/github/ss1.png)
+![screenshot2](https://raw.githubusercontent.com/IsaacShelton/AdeptVim/master/github/ss2.png)
