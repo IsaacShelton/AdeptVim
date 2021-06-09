@@ -8,7 +8,7 @@ syntax keyword adeptKeyword each else enum external fallthrough for foreign func
 syntax keyword adeptKeyword if import in inout new or out packed private public repeat return
 syntax keyword adeptKeyword sizeof static stdcall struct switch typeinfo unless until while
 syntax keyword adeptKeyword va_start va_end va_copy va_arg verbatim void union exhaustive
-syntax keyword adeptKeyword const define namespace using implicit pragma elif llvm_asm
+syntax keyword adeptKeyword const define namespace using implicit pragma elif llvm_asm embed
 highlight link adeptKeyword Keyword
 
 syntax keyword adeptCommonType bool byte ubyte short ushort int uint long ulong usize successful
