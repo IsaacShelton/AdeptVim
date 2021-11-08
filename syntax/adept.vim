@@ -9,6 +9,7 @@ syntax keyword adeptKeyword if import in inout new or out packed private public 
 syntax keyword adeptKeyword sizeof static stdcall struct switch typeinfo unless until while
 syntax keyword adeptKeyword va_start va_end va_copy va_arg verbatim void union exhaustive
 syntax keyword adeptKeyword const define namespace using implicit pragma elif llvm_asm embed
+syntax keyword adeptKeyword typenameof alignof
 highlight link adeptKeyword Keyword
 
 syntax keyword adeptCommonType bool byte ubyte short ushort int uint long ulong usize successful
