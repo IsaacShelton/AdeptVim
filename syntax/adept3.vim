@@ -55,6 +55,7 @@ syntax match adept3Operator "\V."
 syntax match adept3Operator "\V=>"
 syntax match adept3Operator "\V->"
 syntax match adept3Operator "\V:="
+highlight link adept3Operator Operator
 
 syntax match adept3LineComment "\v//.*$"
 highlight link adept3LineComment Comment
