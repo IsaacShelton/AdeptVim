@@ -13,7 +13,7 @@ syntax keyword adept3CommonType u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
 highlight link adept3CommonType Type
 
 syntax keyword adept3CommonName true false null undef this it idx
-highlight link adept3CommonName Identifier
+highlight link adept3CommonName Number
 
 syntax match adept3Polymorph "\v\$(\~)?[a-zA-Z_0-9]+"
 highlight link adept3Polymorph Type
