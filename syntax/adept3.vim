@@ -9,7 +9,7 @@ highlight link adept3Keyword Keyword
 
 syntax keyword adept3CommonType bool char uchar schar short ushort int uint long ulong
 syntax keyword adept3CommonType longlong ulonglong float double ptr void
-syntax keyword adept3CommonType u8 u16 u32 u64 i8 i16 i32 i64
+syntax keyword adept3CommonType u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
 highlight link adept3CommonType Type
 
 syntax keyword adept3CommonName true false null undef this it idx
