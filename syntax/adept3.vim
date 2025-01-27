@@ -25,7 +25,7 @@ highlight link adept3Polycount Number
 syntax match adept3Operator "\V+"
 syntax match adept3Operator "\V-"
 syntax match adept3Operator "\V*"
-syntax match adept3Operator "\V\(\[A-Za-z0-9_]\)\@<!/\(\[A-Za-z0-9]\)\@!"
+syntax match adept3Operator "\V\(\[A-Za-z]\)\@<!/\(\[A-Za-z]\)\@!"
 syntax match adept3Operator "\V+="
 syntax match adept3Operator "\V-="
 syntax match adept3Operator "\V*="
@@ -62,7 +62,7 @@ highlight link adept3Operator Operator
 syntax match adept3LineComment "\v//.*$"
 highlight link adept3LineComment Comment
 
-syntax match adept3Preprocessor "\V\(\[A-Za-z0-9_]\)\@<!#[a-zA-Z0-9_]*"
+syntax match adept3Preprocessor "\v#[a-zA-Z0-9_]*"
 highlight link adept3Preprocessor Preproc
 
 syntax match adept3Number "\v<((0x[0-9A-Fa-f]+)|(([0-9]+(\.[0-9]+)?)(e-?[0-9]*)?))(u|s|ub|sb|us|ss|ui|si|ul|sl|uz|f|d)?>"
