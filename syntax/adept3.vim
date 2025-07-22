@@ -71,7 +71,7 @@ syntax match adept3Number "\v<((0x[0-9A-Fa-f]+)|(([0-9]+(\.[0-9]+)?)(e-?[0-9]*)?
 highlight link adept3Number Number
 
 syntax region adept3String start=/\vc?"/ skip=/\v\\./ end=/\v"/
-syntax region adept3String start=/\vc?'/ skip=/\v\\./ end=/\v'(ub)?/
+syntax region adept3String start="\V\(\[A-Za-z]\)\@<!c\?'" skip=/\v\\./ end=/\v'(ub)?/
 highlight link adept3String String
 
 syntax region adept3BlockComment start=/\V\/*/ end=/\V*\//
