@@ -6,3 +6,6 @@ autocmd! BufNewFile,BufRead *.adept
     \ else |
     \     set filetype=adept |
     \ endif
+
+autocmd! BufNewFile,BufRead *.adept3
+    \ set filetype=adept3 |
