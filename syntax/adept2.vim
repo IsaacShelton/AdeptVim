@@ -77,5 +77,5 @@ highlight link adeptString String
 syntax region adeptBlockComment start=/\V\/*/ end=/\V*\//
 highlight link adeptBlockComment Comment
 
-let b:current_syntax = "adept"
+let b:current_syntax = "adept2"
 

@@ -4,7 +4,7 @@ if exists("b:current_syntax")
 endif
 
 syntax keyword adept3Keyword func struct enum typealias union define return
-syntax keyword adept3Keyword if while elif else true false zeroed pragma pub
+syntax keyword adept3Keyword if while unless else when true false zeroed pragma pub
 syntax keyword adept3Keyword trait given is for impl
 highlight link adept3Keyword Keyword
 
