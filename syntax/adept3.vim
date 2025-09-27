@@ -22,13 +22,11 @@ highlight link adept3CommonName Number
 syntax match adept3Polymorph "\v\$(\~)?[a-zA-Z_0-9]+"
 highlight link adept3Polymorph Type
 
-syntax match adept3Polycount "\v\$#[a-zA-Z_0-9]+"
-highlight link adept3Polycount Number
-
 syntax match adept3Operator "\V+"
 syntax match adept3Operator "\V-"
 syntax match adept3Operator "\V*"
 syntax match adept3Operator "\V\(\[A-Za-z]\)\@<!/\(\[A-Za-z]\)\@!"
+syntax match adept3Operator "\V#"
 syntax match adept3Operator "\V'"
 syntax match adept3Operator "\V+="
 syntax match adept3Operator "\V-="
