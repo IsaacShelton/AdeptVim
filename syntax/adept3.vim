@@ -65,9 +65,6 @@ highlight link adept3Operator Operator
 syntax match adept3LineComment "\v//.*$"
 highlight link adept3LineComment Comment
 
-syntax match adept3Preprocessor "\v#[a-zA-Z0-9_]*"
-highlight link adept3Preprocessor Preproc
-
 syntax match adept3Number "\v<((0x[0-9A-Fa-f]+)|(([0-9]+(\.[0-9]+)?)(e-?[0-9]*)?))(u|s|ub|sb|us|ss|ui|si|ul|sl|uz|f|d)?>"
 highlight link adept3Number Number
 
