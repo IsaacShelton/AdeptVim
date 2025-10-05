@@ -7,7 +7,7 @@ endif
 syntax keyword adept3Keyword func struct enum typealias union define return
 syntax keyword adept3Keyword if while unless else when true false zeroed pragma pub
 syntax keyword adept3Keyword trait given is for impl interface until unless namespace
-syntax keyword adept3Keyword continue break mod goto
+syntax keyword adept3Keyword continue break mod goto linkset
 highlight link adept3Keyword Keyword
 
 syntax keyword adept3CommonType bool char uchar schar short ushort int uint long ulong
