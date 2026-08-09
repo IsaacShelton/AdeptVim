@@ -26,6 +26,9 @@ highlight link adept3CommonName Number
 syntax match adept3Polymorph "\v\$(\~)?[a-zA-Z_0-9]+"
 highlight link adept3Polymorph Type
 
+syntax match adept3Directive "\v\@[a-zA-Z_0-9]+"
+highlight link adept3Directive Keyword
+
 syntax match adept3Operator "\V+"
 syntax match adept3Operator "\V-"
 syntax match adept3Operator "\V*"
