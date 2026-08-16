@@ -14,13 +14,14 @@ highlight link adept3Keyword Keyword
 
 syntax keyword adept3CommonType Type Void Nat SNat Fin Bool Char UChar SChar Short UShort Int UInt Long ULong
 syntax keyword adept3CommonType U8 U16 U32 U64 I8 I16 I32 I64 Ptr PtrConst Ref RefMut Double Float USize SSize
+syntax keyword adept3CommonType SideEffect
 syntax keyword adept3CommonType bool char uchar schar short ushort int uint long ulong
 syntax keyword adept3CommonType longlong ulonglong float double void
 syntax keyword adept3CommonType u8 u16 u32 u64 i8 i16 i32 i64 f32 f64
 syntax keyword adept3CommonType ptr ptr_const ptr_mut deref deref_const deref_mut refer
 highlight link adept3CommonType Type
 
-syntax keyword adept3CommonName true false null undef this it idx
+syntax keyword adept3CommonName true false null undef this it idx Pure Hang Io
 highlight link adept3CommonName Number
 
 syntax match adept3Polymorph "\v\$(\~)?[a-zA-Z_0-9]+"
